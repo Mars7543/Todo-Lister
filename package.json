@@ -1,0 +1,28 @@
+{
+  "name": "todo-lister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e ejs,hbs,js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mars7543/Todo-Lister.git"
+  },
+  "author": "Miguel Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mars7543/Todo-Lister/issues"
+  },
+  "homepage": "https://github.com/Mars7543/Todo-Lister#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
