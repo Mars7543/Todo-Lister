@@ -1,0 +1,52 @@
+.header {
+    color: #E57373;
+    font-weight: 300;
+}
+
+.sub-header {
+    color: #4FC3F7;
+    font-weight: 300;
+}
+
+.sidenav-header {
+    margin: 0;
+    padding: 30px 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header,main,footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+.sidenav {
+    box-shadow: none;
+    border-right: 1px solid #E0E0E0;
+}
+
+footer.page-footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #E0E0E0;
+}
+
+footer.page-footer, footer>.footer-copyright {
+    background-color: white !important;
+    color: #757575 !important;
+}

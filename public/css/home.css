@@ -1,0 +1,53 @@
+ul.collection {
+    width: 50%;
+}
+
+li.collection-item>input.braindump, li.collection-item>input.braindump:focus{
+    margin: 0;
+    border-bottom: none !important;
+    box-shadow: none !important;
+
+    font-size: 18px;
+    color: #424242;
+
+    display: inline;
+}
+
+li.collection-item>input.braindump::placeholder {
+    color: #BDBDBD;
+}
+
+li.collection-item {
+    border: 2px solid#e0e0e0 !important;
+    transition: border .25s;
+}
+
+li.collection-item.selected {
+    border: 2px solid #29B6F6 !important;
+}
+
+.action-button{
+    color: white;
+    width: 25%;
+    vertical-align: middle;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    height: initial;
+    display: inline-block;
+}
+
+#add-item {
+    background-color: #29B6F6;
+}
+
+#submit {
+    background-color: #4CAF50;
+}
+
+#add-item i{
+    font-size: 30px;
+    font-weight: 600;
+}

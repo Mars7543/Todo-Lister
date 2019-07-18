@@ -2,8 +2,8 @@ const mongoose = require('mongoose')
 
 const todoListSchema = new mongoose.Schema({
     date: {
-        type: String,
-        required: true
+        type: Date,
+        default: Date.now
     },
     todos: [{
         type: mongoose.Schema.Types.ObjectId,
